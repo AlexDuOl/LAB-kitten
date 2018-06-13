@@ -35,19 +35,3 @@
 .col-10 {width: 83.33333333333334%;}
 .col-11 {width: 91.66666666666666%;}
 .col-12 {width: 100%;}
-
-@media all and (max-width: 425px) and (orientation: landscape){
-  [class*="col-"]{
-    width: 100%;
-  }
-}
-    .hide-on-mobile {
-        display: none;
-    }
-}
-@media (min-width:576px){
-    .hide-on-desktop {
-        display: none;
-    }
-}
-/** End of Grid System **/
